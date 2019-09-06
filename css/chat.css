@@ -1,0 +1,94 @@
+h1, h2, h3, h4, h6{
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 2rem;
+  color: white;
+  text-align: left;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #0066ff;
+  color:white;
+  text-align: center;
+}
+
+p{
+  color:white;
+}
+
+div{
+  margin:20px
+}
+
+button{
+  float:right;
+  margin:0 0.5rem 1rem;
+}
+
+form{
+  width:60%;
+  display: none;
+  margin:5rem auto;
+}
+
+.formDiv{
+  text-align: center;
+  align-content: center;
+}
+
+.form-control{
+  top:20px;
+}
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+.fa{
+  height: 1.5rem;
+}

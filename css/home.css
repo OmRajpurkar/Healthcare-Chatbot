@@ -1,0 +1,189 @@
+html{
+  scroll-behavior: smooth;
+}
+
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+.chatbot{
+  position: relative;
+  right:1rem;
+}
+
+h1, h2, h3, h4, h6{
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 10vw;
+}
+
+.carousel-img{
+  width: 100%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  width: 8rem;
+}
+
+.col-lg-6{
+  padding-top: 2rem;
+}
+
+button a{
+  color: white;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: white;
+  font-family: "Montserrat";
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  background-color: #0066ff;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 60rem;
+}
+
+.hidden{
+  display: none;
+}
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  text-align: left;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  margin-top: 0.50rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 255);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+  vertical-align: middle;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, 255);
+}
+
+#top{
+  margin-top: 100px;
+  margin-bottom: 250px;
+}
+
+#middle{
+  background-color: #fff;
+}
+
+.bd-example{
+  position: absolute;
+  left:0;
+  bottom:-700px;
+}
+
+.contact{
+  width: 100%;
+  position: absolute;
+  left:0px;
+  bottom:-950px;
+}
+
+#footer{
+  width: 100%;
+  padding: 7% 15%;
+}
+
+.footer-icon{
+  margin:0.75rem;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+footer p {
+  text-shadow: none;
+  color: #8f8f8f;
+  font-family: "Montserrat";
+}
